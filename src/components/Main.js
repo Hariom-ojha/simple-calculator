@@ -65,9 +65,11 @@ class Main extends Component {
     render() {
         return (
             <div className="main">
-                <h1 className="heading">Calculator</h1>
-                <Screen result={this.state.result} />
-                <Buttons onClick={this.onClick} />
+                <div>
+                    <h1 className="heading">CAlcuLator</h1>
+                    <Screen result={this.state.result} />
+                    <Buttons onClick={this.onClick} />
+                </div>
             </div>
         );
     }
