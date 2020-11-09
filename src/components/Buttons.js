@@ -26,10 +26,10 @@ class Buttons extends Component {
                 <Button name="9" onClick={e => this.props.onClick(e.target.name)}>9</Button>
                 <Button name="*" onClick={e => this.props.onClick(e.target.name)}>x</Button><br />
 
-                <Button name="." onClick={e => this.props.onClick(e.target.name)}>.</Button>
+                <Button className="last-left" name="." onClick={e => this.props.onClick(e.target.name)}>.</Button>
                 <Button name="0" onClick={e => this.props.onClick(e.target.name)}>0</Button>
                 <Button name="=" onClick={e => this.props.onClick(e.target.name)}>=</Button>
-                <Button name="/" onClick={e => this.props.onClick(e.target.name)}>/</Button>
+                <Button className="last-right" name="/" onClick={e => this.props.onClick(e.target.name)}>/</Button>
             </div>
         )
     }
