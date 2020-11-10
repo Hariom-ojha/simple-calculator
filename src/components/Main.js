@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Buttons from './Buttons';
 import Screen from './screen';
-import {
-    Card, CardText, CardBody, CardTitle
-} from 'reactstrap';
 
 
 class Main extends Component {
